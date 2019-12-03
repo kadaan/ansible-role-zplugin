@@ -2,17 +2,13 @@
 - name: Download zplugin installer
   get_url:
     url: https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh
-    dest: /tmp/zplugin-installer.sh
+    dest: $HOME/zplugin-installer.sh
     mode: 0755
-    owner: "{{ ansible_user }}"
-  become: true
 
 - name: Execute the zplugin installer
-  shell: /tmp/zplugin-installer.sh
-  become: true
+  shell: $HOME/zplugin-installer.sh
 
 - name: Remove the zplugin installer
   file:
-    path: /tmp/zsh-installer.sh
+    path: $HOME/zsh-installer.sh
     state: absent
-  become: true
