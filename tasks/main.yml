@@ -3,6 +3,7 @@
   get_url:
     url: https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh
     dest: /tmp/zplugin-installer.sh
+    mode: 0644
 
 - name: Execute the zplugin installer
   shell: /tmp/zplugin-installer.sh
