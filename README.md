@@ -1,6 +1,6 @@
 # Ansible Role: Zplugin
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-zplugin.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-zplugin)
+[![Build Status](https://travis-ci.com/kadaan/ansible-role-zplugin.svg?branch=master)](https://travis-ci.com/kadaan/ansible-role-zplugin)
 
 Installs zplugin.
 
